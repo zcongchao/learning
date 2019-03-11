@@ -31,7 +31,7 @@ db.create_all()
 
 
 class UserResource(Resource):
-    #装饰器 marshal_with做了把模型实例的属性组合成一个字典的抽象丁作
+    #装饰器 marshal_with做了把模型实例的属性组合成一个字典的抽象工作
     @marshal_with(resource_fields)
     def get(self, name):
         user = User.query.filter_by(name=name).first()
