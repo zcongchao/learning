@@ -1,0 +1,7 @@
+.idea/
+.log
+*.class
+**/*.DS_Store
+**/*.pyc
+**/node_modules
+**/*.vscode
