@@ -1,0 +1,23 @@
+<html>
+	<head>
+	 <title>算命</title>
+	 <meta charset="utf-8">
+	</head>
+	<body>
+	<h2>算命大师</h2>
+	<form method="POST">
+		<input name="item_text"  id="id_new_item" placeholder="输入名字"/>
+		{% csrf_token %}
+	</form>
+	<table id="id_list_table">
+		
+		<tr><td>{{ items }}</td></tr>
+		
+	</table>
+	</body>
+</html>
+
+
+
+
+
