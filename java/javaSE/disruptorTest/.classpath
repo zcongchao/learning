@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/com.lmax/disruptor/3.4.2/e2543a63086b4189fbe418d05d56633bc1a815f7/disruptor-3.4.2.jar" sourcepath="C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/com.lmax/disruptor/3.4.2/b5d79464398c5229fbe07e02f2fd06c9ba53be81/disruptor-3.4.2-sources.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

@@ -1,0 +1,24 @@
+package xyz.redtorch.web.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import xyz.redtorch.web.service.TokenService;
+
+public class TestToken 
+{
+
+	
+	@Autowired
+	private TokenService tokenService;
+	
+	
+	public static void main(String[] args)
+	{
+		String username = "test";
+		String password = "test";
+		// TODO 自动生成的方法存根
+		String token = tokenService.login(username, password);
+
+	}
+
+}

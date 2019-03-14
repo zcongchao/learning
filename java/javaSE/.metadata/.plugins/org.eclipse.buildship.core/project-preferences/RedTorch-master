@@ -1,0 +1,10 @@
+#
+#Thu Dec 06 22:10:06 GMT+08:00 2018
+linkedResources=
+managedNatures=
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+subprojectPaths=rt-api-jctp;rt-common;rt-core;rt-front-web;rt-gateway-jctp;rt-strategy
+derivedResources=.gradle;build;rt-api-jctp/build;rt-common/build;rt-core/build;rt-front-web/build;rt-gateway-jctp/build;rt-strategy/build
+buildScriptPath=build.gradle
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+buildDir=build

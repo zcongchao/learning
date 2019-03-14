@@ -1,0 +1,45 @@
+3
+20:00
+$25.00
+Beethoven's 9th Concert
+Listen to one of the ninth and final masterpiece by Ludwig van Beethoven.
+2
+18:00
+$15.00
+Baseball Game
+Come watch the championship team play their archrival--No work stoppages, guaranteed.
+5
+19:00
+$15.00
+Talent Show
+The best talent in the best venue! Come on down!
+13
+10:00
+$18.00
+Medieval Fair
+You'll feel like you're 600-years-old at this celebration of the Middle Ages.
+19
+13:00
+$20.00
+Film Festival
+The best and brightest independent film directors strut their stuff at this film festival.
+28
+17:00
+$5.00
+City Tour
+Hop on one of our buses for a great tour of the metro area.
+15
+19:00
+$27.50
+Rock Performance
+They've been on the top of the pop charts for months, now come see them perform live at your local stadium!
+10
+20:00
+$22.00
+Theater
+Join the local theater group for a dazzling presentation of this year's hottest drama.
+19
+18:00
+$12.75
+Comedy Club
+Come on down and watch as your local comedy club serves up food and plenty of laughs.

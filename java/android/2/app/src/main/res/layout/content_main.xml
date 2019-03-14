@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:layout_width="392dp"
+        android:layout_height="511dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text="天眼"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="42dp"
+            android:layout_height="31dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="82dp"
+            android:text="TextView"
+            tools:text="代码" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="62dp"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="78dp">
+
+        </android.support.design.widget.TextInputLayout>
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="64dp"
+            android:layout_height="26dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="79dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="55dp"
+            android:layout_height="36dp"
+            android:layout_alignBottom="@+id/editText12"
+            android:layout_marginStart="-1dp"
+            android:layout_marginBottom="-3dp"
+            android:layout_toEndOf="@+id/editText12"
+            android:text="查阅" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="43dp"
+            android:layout_height="29dp"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="120dp"
+            android:text="方向" />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="120dp"
+            android:layout_toEndOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="163dp"
+            android:text="开平" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="156dp"
+            android:layout_marginEnd="233dp"
+            android:layout_marginRight="233dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="200dp"
+            android:text="价格" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="122dp"
+            android:layout_height="34dp"
+            android:layout_below="@+id/spinner"
+            android:layout_alignStart="@+id/editText12"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="245dp"
+            android:text="数量" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="126dp"
+            android:layout_height="29dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/textView7"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView11"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="199dp"
+            android:text="类型" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="234dp"
+            android:layout_marginRight="234dp"
+            android:layout_marginBottom="196dp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

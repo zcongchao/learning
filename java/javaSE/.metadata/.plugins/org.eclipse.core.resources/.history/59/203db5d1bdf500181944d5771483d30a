@@ -1,0 +1,47 @@
+package xyz.redtorch.web.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
+import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.web.bind.annotation.RestController;
+
+import xyz.redtorch.web.service.TokenService;
+
+@SpringBootApplication
+@RestController
+@EnableAutoConfiguration(exclude={MongoAutoConfiguration.class})
+@ServletComponentScan(basePackages = {"xyz.redtorch.web.filter"})
+public class TestToken 
+{
+
+	String username = "test";
+	String password = "test";
+	
+	@Autowired
+	private TokenService tokenService;
+	
+	String token = tokenService.login(username, password);
+	//String token = "hello";
+	
+	public String token_value()
+	{
+		return token;
+	}
+	public void f(String str)
+	{
+		if( str == null )
+			System.out.println("这里的str值是null");
+		System.out.println(str.toString());
+	}
+	
+	public static void main(String []args)
+	{
+		TestToken testToken = new TestToken();
+	
+		String tokenValue = testToken.token_value();
+		testToken.f(tokenValue);
+		//System.out.println(tokenValue);
+	}
+}

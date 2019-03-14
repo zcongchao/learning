@@ -1,0 +1,28 @@
+package xyz.redtorch.web.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import xyz.redtorch.web.service.TokenService;
+
+public class TestToken 
+{
+
+	String username = "test";
+	String password = "test";
+	
+	@Autowired
+	private TokenService tokenService;
+	
+	String token = tokenService.login(username, password);
+	
+	public String token_value()
+	{
+		return token;
+	}
+	
+	public static void main(String []args)
+	{
+		TestToken testToken = new TestToken();
+		System.out.println(testToken);
+	}
+}

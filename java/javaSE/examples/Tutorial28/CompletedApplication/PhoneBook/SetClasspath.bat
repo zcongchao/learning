@@ -1,0 +1,1 @@
+set CLASSPATH=C:\FreeTTS\lib\cmuawb.jar;C:\FreeTTS\lib\cmukal16.jar;C:\FreeTTS\lib\cmukal8.jar;C:\FreeTTS\lib\cmulex.jar;C:\FreeTTS\lib\cmutimelex.jar;C:\FreeTTS\lib\demo.jar;C:\FreeTTS\lib\freetts.jar;C:\FreeTTS\lib\JSAPI.JAR;.
