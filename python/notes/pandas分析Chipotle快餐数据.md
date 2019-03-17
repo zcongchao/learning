@@ -1,5 +1,5 @@
 # pandas分析Chipotle快餐数据.md
-### [chipo数据集](https://github.com/daacheng/PythonBasic/blob/master/dataset/chipotle.csv)
+### [chipo数据集](https://github.com/zcongchao/learning/tree/master/python/dataset/chipotle.csv)
 
 ### 练习代码
 

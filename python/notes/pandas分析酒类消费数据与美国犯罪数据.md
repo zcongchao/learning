@@ -1,5 +1,5 @@
 # pandas分析酒精类消费数据（数据分组）
-“酒精类消费数据”数据集地址：https://github.com/daacheng/PythonBasic/blob/master/dataset/drinks.csv
+“酒精类消费数据”数据集地址：https://github.com/zcongchao/learning/tree/master/python/dataset/drinks.csv
 
 ## 代码
 

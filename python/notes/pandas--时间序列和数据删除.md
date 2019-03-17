@@ -1,8 +1,8 @@
 # pandas时间序列和数据删除
 ### 时间序列
-[数据集地址](https://github.com/daacheng/PythonBasic/blob/master/dataset/appl_1980_2014.csv)
+[数据集地址](https://github.com/zcongchao/learning/tree/master/python/dataset/appl_1980_2014.csv)
 
-https://github.com/daacheng/PythonBasic/blob/master/dataset/appl_1980_2014.csv
+
 ### 代码
 
     %matplotlib inline
@@ -42,9 +42,9 @@ https://github.com/daacheng/PythonBasic/blob/master/dataset/appl_1980_2014.csv
     appl['Adj Close'].plot(title = 'apple stock price trend')
 
 ### 删除数据
-[数据集地址](https://github.com/daacheng/PythonBasic/blob/master/dataset/iris.csv)
+[数据集地址](https://github.com/zcongchao/learning/tree/master/python/dataset/iris.csv)
 
-https://github.com/daacheng/PythonBasic/blob/master/dataset/iris.csv
+
 
 ### 代码
 

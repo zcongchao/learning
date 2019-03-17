@@ -1,6 +1,6 @@
 # 数据的过滤与排序
-[欧洲杯数据集链接](https://github.com/daacheng/PythonBasic/blob/master/dataset/euro12.csv)
-https://github.com/daacheng/PythonBasic/blob/master/dataset/euro12.csv
+[欧洲杯数据集链接](https://github.com/zcongchao/learning/tree/master/python/dataset/euro12.csv)
+
 ## 代码
 
     import pandas as pd

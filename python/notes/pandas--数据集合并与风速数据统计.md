@@ -40,9 +40,9 @@
     pd.merge(data1,data2,how='outer',on='subject_id')
 
 ## pandas--风速数据统计
-[风速数据地址](https://github.com/daacheng/PythonBasic/blob/master/dataset/wind_data.csv)
+[风速数据地址](https://github.com/zcongchao/learning/tree/master/python/dataset/wind_data.csv)
 
-https://github.com/daacheng/PythonBasic/blob/master/dataset/wind_data.csv
+
 ### 代码
 
     import pandas as pd
