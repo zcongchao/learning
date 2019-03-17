@@ -2,7 +2,7 @@
 <p align="center">
 <img width="130" align="center" src="img/logo.svg"/>
 </p>
-<h1 align="center">Docker入门教程</h1>
+<h1 align="center">Docker教程</h1>
 
 
 
