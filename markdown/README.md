@@ -1,4 +1,3 @@
-![](https://cdoco.com/images/markdown-syntax.png)
 
 ## 什么是 Markdown ?
 
